@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFF8F5;
+    font-family: 'Manrope', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+ nav .logo p{
+     max-width: 200px;
+     font-family: 'Just Lovely';
+     color: #F95800;
+     font-size: 60px;
+     /* line-height: 0.25px; */
+ }
+
+ nav .headings ul, nav .headings li {
+     display: inline-block;
+ }
+ nav .headings li{
+     color: #F95800;
+     text-transform: uppercase;
+     font-weight: 600;
+     font-size: 17px;
+     padding-left: 20px;
+ }
+.contact_us button {
+    background-color: #F95800;
+    padding: 10px 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+}
+.fa-inbox {
+    background-color: #F95800;
+    color: white;
+    padding-left: 10px;
+}
