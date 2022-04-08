@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #FFF8F5;
     font-family: 'Manrope', sans-serif;
 }
 a {
@@ -11,12 +10,13 @@ a {
 }
 
 nav {
+    background: #FFF8F5;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    max-width: 1400px;
     margin: 0 auto;
+    padding: 0 100px;
 }
 
  nav .logo p{
@@ -31,11 +31,16 @@ nav {
      display: inline-block;
  }
  nav .headings li{
+     cursor: pointer;
      color: #F95800;
      text-transform: uppercase;
      font-weight: 600;
      font-size: 17px;
      padding-left: 20px;
+ }
+ nav .headings li:hover {
+     opacity: 0.8;
+
  }
 .contact_us button {
     background-color: #F95800;
@@ -47,6 +52,10 @@ nav {
     outline: none;
     border: none;
     border-radius: 60px;
+    cursor: pointer;
+}
+.contact_us button:hover {
+    opacity: 0.8;
 }
 .fa-inbox {
     background-color: #F95800;

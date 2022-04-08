@@ -10,18 +10,16 @@ a {
   text-decoration: none;
 }
 main {
-  /* background: #fff8f5; */
-  max-width: 1400px;
+  background: #fff8f5;
+  padding: 0 100px;
   margin: 0 auto;
-  /* height: auto; */
-  height: 100vh;
-  /* position: relative; */
+  height: auto;
 }
 .first {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .first_title {
   font-size: 45px;

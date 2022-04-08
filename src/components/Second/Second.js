@@ -35,6 +35,16 @@ const Second = () => {
                 into an actual website
               </p>
             </div>
+            <div className="section-second-left-third">
+              <div className="section-second-left-third-one">
+                <span>100+</span>
+                <p>Projects Completed</p>
+              </div>
+              <div className="section-second-left-third-two">
+                <span>50+</span>
+                <p>Clients Satisfied</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

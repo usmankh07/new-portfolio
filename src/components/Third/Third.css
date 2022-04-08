@@ -1,0 +1,31 @@
+.third-part h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #F95800;
+    margin: 0 auto;
+
+}
+.third-part {
+    padding: 30px 100px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+.third-section-two {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.third-section-two-first-one h2 {
+    font-size: 35px;
+}
+.third-section-two-first-one span {
+    font-size: 20px;
+}
+.third-section-two-third p {
+    color: #F95800;
+    font-size: 19px;
+}
+.third-section-two-third {
+    width: 100%;
+}
