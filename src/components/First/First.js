@@ -6,6 +6,8 @@ import "./First.css";
 const First = () => {
   return (
     <>
+    <div className="first_background">
+
       <main>
         <div className="first">
           <div className="first_title">
@@ -40,6 +42,7 @@ const First = () => {
           </div>
         </div>
       </main>
+    </div>
     </>
   );
 };

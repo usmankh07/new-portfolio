@@ -9,11 +9,16 @@
 a {
   text-decoration: none;
 }
-main {
+.first_background {
   background: #fff8f5;
+  width: 100%;
+
+}
+main {
   padding: 0 100px;
   margin: 0 auto;
   height: auto;
+  max-width: 1400px;
 }
 .first {
   display: flex;
@@ -35,7 +40,7 @@ main {
   align-items: center;
 }
 .second_image {
-  max-width: 45%;
+  max-width: 37%;
 }
 .second_image img {
   width: 100%;

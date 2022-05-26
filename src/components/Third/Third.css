@@ -1,5 +1,5 @@
 .third-part h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     margin: 0 auto;
     color: #F95800;
@@ -34,7 +34,7 @@
 }
 .third-section-two-first {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 40px;
     width: 100%;
 }
@@ -78,5 +78,5 @@
 .third-section-two-third {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }

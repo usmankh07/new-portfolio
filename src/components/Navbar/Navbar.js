@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
+    <div className="navbar_background">
+
         <nav>
             <div className="logo">
               <p>Usman</p>
@@ -20,6 +22,7 @@ const Navbar = () => {
               <button>Email   me <i class="fa fa-inbox" aria-hidden="true"></i></button>
             </div>
         </nav>
+    </div>
     </>
   )
 }

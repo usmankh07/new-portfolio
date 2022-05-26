@@ -7,6 +7,8 @@ import apps from "../../assets/images/apps.png";
 const Second = () => {
   return (
     <>
+    <div className="second_background">
+
       <section className="second-part">
         <div className="second-section">
         {/* Second section right portion */}
@@ -48,6 +50,7 @@ const Second = () => {
           </div>
         </div>
       </section>
+    </div>
     </>
   );
 };

@@ -1,0 +1,46 @@
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: #F95800;
+    width: 19px;
+    border-radius: 50%;
+    height: 19px;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 1px 2px grey;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.swiper:hover {
+    cursor: grabbing;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    max-width: 778px;
+    padding: 50px 0;
+    z-index: 1;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+}
+#heapware , .yoga, .weather, .studio, .todo, .calculator{
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.heapware-slide, .yoga-slide, .weather-slide, .studio-slide, .calculator-slide, .todo-slide {
+    padding: 50px 0;
+}

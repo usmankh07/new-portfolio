@@ -1,4 +1,5 @@
 import './App.css';
+import Fifth from './components/Fifth/Fifth';
 import First from './components/First/First';
 import Fourth from './components/Fourth/Fourth';
 import Navbar from './components/Navbar/Navbar';
@@ -13,6 +14,7 @@ function App() {
      <Second />
      <Third />
      <Fourth />
+     <Fifth />
     </>
   );
 }

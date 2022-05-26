@@ -9,16 +9,21 @@
 a {
     text-decoration: none;
 }
+.second_background {
+    background-color: #FBFBFB;
+    width: 100%;
+
+}
 .second-part {
+    max-width: 1400px;
     height: auto;
     padding: 100px 100px;
     margin: 0 auto;
-    background-color: #FBFBFB;
 }
 .second-section {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
 .section-second-right-first, .section-second-right-second, .section-second-right-third {
     display: flex;
@@ -35,7 +40,7 @@ a {
 }
 .section-second-left-first h2 {
     color: #F95800;
-    font-size: 50px;
+    font-size: 40px;
 }
 .section-second-left-second p {
     color: #7B7B7B;

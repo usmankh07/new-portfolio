@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.fifth_background {
+    background-color: #fff8f5;
+    width: 100%;
+}
+.fifth_part {
+    max-width: 1400px;
+    padding: 30px 100px;
+    display: flex;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.fifth_part h2 {
+    text-align: center;
+    color: #F95800;
+    font-size: 40px;
+}
