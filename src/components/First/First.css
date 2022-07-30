@@ -12,7 +12,6 @@ a {
 .first_background {
   background: #fff8f5;
   width: 100%;
-
 }
 main {
   padding: 0 100px;
@@ -64,4 +63,27 @@ main {
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .first_title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    padding: 0 20px;
+  }
+  .first {
+    flex-wrap: wrap;
+  }
+  .second {
+    display: none;
+  }
+  .second_last {
+    display: none;
+  }
+  .second_image {
+    max-width: 99%;
+  }
 }

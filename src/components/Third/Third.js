@@ -5,7 +5,7 @@ import line from '../../assets/images/line.png'
 const Third = () => {
     return (
         <>
-        <div className="third_background">
+        <div id="experience" className="third_background">
 
             <main className="third-part">
                 
@@ -28,7 +28,7 @@ const Third = () => {
                             <span>Dec 2021-March 2022</span>
                         </div>
                         <div className="third-section-two-third-second">
-                            <h3>FullStack Web Developer</h3>
+                            <h3>Frontend Engineer (ReactJs, NextJs)</h3>
                             <p>I started working on their E-Learning Website and after that me and some other interns  started working on their pos System. Although we didn't complete it.</p>
                         </div>
                     </div>

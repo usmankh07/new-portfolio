@@ -36,8 +36,7 @@ const First = () => {
               <img src={w3} alt="" />
             </div>
             <div className="w3_title">
-              W3 Certified <br />
-              Full-Stack Developer
+              W3 Certified
             </div>
           </div>
         </div>

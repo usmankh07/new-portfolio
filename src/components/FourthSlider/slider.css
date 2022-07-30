@@ -43,4 +43,24 @@ justify-content: center;
 }
 .heapware-slide, .yoga-slide, .weather-slide, .studio-slide, .calculator-slide, .todo-slide {
     padding: 50px 0;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .swiper {
+        max-width: 621px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .swiper {
+        max-width: 331px;
+    }
+    #heapware, .yoga, .weather, .studio, .todo, .calculator {
+        cursor: pointer;
+        font-size: 19px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+    }
 }

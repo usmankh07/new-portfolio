@@ -9,11 +9,11 @@
 a {
   text-decoration: none;
 }
-.fifth_background {
-    background-color: #fff8f5;
+.sixth_background {
+    background-color: #fbfbfb;
     width: 100%;
 }
-.fifth_part {
+.sixth_part {
     max-width: 1400px;
     padding: 30px 100px;
     display: flex;
@@ -21,12 +21,19 @@ a {
     margin: 0 auto;
     flex-direction: column;
 }
-.fifth_part h2 {
+.sixth_part h2 {
     text-align: center;
     color: #F95800;
     font-size: 40px;
 }
-.fifth_part {
-  max-width: 1400px;
-  padding: 30px 20px;
+@media screen and (max-width: 768px) {
+  .sixth_part {
+    max-width: 1400px;
+    padding: 30px 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .sixth_part {
+    padding: 30px 20px;
+  }
 }

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.seven_background {
+    background-color: #fff8f5;
+    width: 100%;
+}
+.seven_content {
+    max-width: 1400px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: 0 auto;
+}
+.seven_content_second {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+.seven_content_second_first {
+    margin: 0 auto;
+    padding: 30px 100px;
+    max-width: 1400px;
+
+}
+.seven_content_second .logo_footer {
+    margin-top: 10px;
+}
+.seven_content_second .logo_footer span{
+    max-width: 200px;
+    font-family: 'Just Lovely', 'The Nautigal';
+    color: #F95800;
+    padding-right: 30px;
+    border-right: 1px solid rgb(216, 216, 216);
+    font-size: 50px;
+} 
+text {
+    padding-left: 20px;
+}
+.seven_content_second .logo_footer_two {
+    margin-top: 40px;
+}
+.seven_content_second .logo_footer_two h3 {
+    font-size: 16px;
+    color: black;
+
+}
+
+.seven_content .seven_content_one h2 {
+    font-size: 48px;
+    color: #f95800;
+    text-transform: none;
+}
+.seven_content .seven_content_one h3 {
+    padding: 30px 0;
+    color: #f95800;
+    text-transform: none;
+}
+.hi {
+    color: grey;
+    text-decoration: underline;
+}
+.seven_content .seven_content_two h4 {
+    font-size: 25px;
+    color: #f95800;
+} 
+.information_subheadings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.information_subheadings li {
+    font-size: 18px;
+    padding: 5px 0;
+}
+@media screen and (max-width: 1200px) {
+    .seven_content .seven_content_one h2 {
+        font-size: 42px;
+        color: #f95800;
+        text-transform: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .seven_content {
+        max-width: 1400px;
+        padding: 30px 50px;
+    }
+    .seven_content .seven_content_one h2 {
+        font-size: 30px;
+    }
+    .seven_content_second_first {
+        margin: 0 auto;
+        padding: 30px 50px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .seven_content {
+        display: flex;
+        max-width: 1400px;
+        padding: 30px 20px;
+        flex-wrap: wrap;
+    }
+    .seven_content .seven_content_one h2 {
+        font-size: 24px;
+    }
+    .seven_content .seven_content_two h4 {
+        font-size: 19px;
+        color: #f95800;
+    }
+    .seven_content_second_first {
+        margin: 0 auto;
+        padding: 30px 20px;
+    }
+    .seven_content_second .logo_footer span {
+        font-size: 29px;
+    }
+    text {
+        padding-left: 4px;
+        font-size: 10px;
+    }
+    .seven_content_second .logo_footer_two h3{
+        font-size: 10px;
+    }
+    .seven_content_second .logo_footer_two {
+        margin-top: 25px;
+
+    }
+    .seven_content_second .logo_footer span {
+        padding-right: 11px;
+    }
+    
+}

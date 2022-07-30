@@ -1,13 +1,14 @@
 import React from 'react'
 import './Fifth.css'
+import FifthSlider from './FifthSlider/FifthSlider'
 
 const Fifth = () => {
   return (
     <>
-    <div className="fifth_background">
+    <div id='reviews' className="fifth_background">
         <div className="fifth_part">
-            <h2>People talk about me</h2>
-         
+            <h2>Reviews</h2>
+               <FifthSlider />
         </div>
     </div>
     </>

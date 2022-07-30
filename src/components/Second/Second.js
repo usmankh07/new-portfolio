@@ -7,7 +7,7 @@ import apps from "../../assets/images/apps.png";
 const Second = () => {
   return (
     <>
-    <div className="second_background">
+    <div id="services" className="second_background">
 
       <section className="second-part">
         <div className="second-section">

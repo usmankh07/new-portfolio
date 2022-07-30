@@ -1,0 +1,19 @@
+.technology_image {
+    max-width: 150px;
+}
+.sixthslider_content {
+    margin: 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+    .technology_image {
+        max-width: 100px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .technology_image {
+        max-width: 60px;
+    }
+}

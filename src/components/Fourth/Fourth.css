@@ -24,5 +24,24 @@
     font-size: 20px;
     justify-content: left;
     width: 100%;
+    
+}
 
+@media screen and (max-width: 768px) {
+    .fourth_part {
+        overflow-x: hidden;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .fourth_part {
+        padding: 30px 20px;
+    }
+    .fourth_part h2 {
+        justify-content: center;
+    }
+    .fourth_part span {
+        text-align: center;
+        justify-content: center;
+    }
 }
